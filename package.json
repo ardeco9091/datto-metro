@@ -1,0 +1,27 @@
+{
+  "name": "datto-metro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./node_modules/next/dist/bin/next dev -H 0.0.0.0 -p 3300",
+    "build": "node ./node_modules/next/dist/bin/next build",
+    "start": "node ./node_modules/next/dist/bin/next start -H 0.0.0.0 -p 3300",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.5.29",
+    "qrcode": "^1.5.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "overrides": {
+    "postcss": "8.5.32"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.9.3"
+  }
+}
